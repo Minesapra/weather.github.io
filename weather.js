@@ -46,32 +46,32 @@ function showWeatherReport(weather){
     date.innerHTML= datemanager(todaydate);
 
     if(atmostphere.textContent == 'Sunny'){
-        document.body.style.backgroundImage = "url(img/sunny.jpg)";
+        document.body.style.backgroundImage = "url(sunny.jpg)";
         document.getElementById("img").innerHTML="&#9729; ";
     } else if(atmostphere.textContent == 'Haze'){
-        document.body.style.backgroundImage = "url(img/haze.jpg)";
+        document.body.style.backgroundImage = "url(haze.jpg)";
          document.getElementById("img").innerHTML=" &#x1F324;";
     } else if(atmostphere.textContent == 'Clouds'){
-        document.body.style.backgroundImage = "url(img/cloudy2.jpg)";
+        document.body.style.backgroundImage = "url(cloudy2.jpg)";
         document.getElementById("img").innerHTML="&#9729; ";
     } else if(atmostphere.textContent == 'Mist'){
-        document.body.style.backgroundImage = "url(img/mist.jpg)";
+        document.body.style.backgroundImage = "url(mist.jpg)";
        document.getElementById("img").innerHTML="&#9780; ";
     }
     else if(atmostphere.textContent == 'Rain'){
-        document.body.style.backgroundImage = "url(img/rainy.jpg)";
+        document.body.style.backgroundImage = "url(rainy.jpg)";
         document.getElementById("img").innerHTML="&#127783; ";
     } else if(atmostphere.textContent == 'Smoke'){
-        document.body.style.backgroundImage = "url(img/smoke.jpg)";
+        document.body.style.backgroundImage = "url(smoke.jpg)";
         document.getElementById("img").innerHTML="&#xf75f; ";
     } else if(atmostphere.textContent == 'Thunderstorm'){
-        document.body.style.backgroundImage = "url(img/thunderstorm.jpg)";
+        document.body.style.backgroundImage = "url(thunderstorm.jpg)";
         document.getElementById("img").innerHTML="&#9928; ";
     } else if(atmostphere.textContent == 'Clear'){
-        document.body.style.backgroundImage = "url(img/clear.jpg)";
+        document.body.style.backgroundImage = "url(clear.jpg)";
         document.getElementById("img").innerHTML="&#9728; ";
     } else if(atmostphere.textContent == 'Snow'){
-        document.body.style.backgroundImage = "url(img/snow.jpg)";
+        document.body.style.backgroundImage = "url(snow.jpg)";
         document.getElementById("img").innerHTML="&#9731; ";
     }
 
